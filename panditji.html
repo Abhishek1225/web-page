@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST ONLINE PANDIT PROVIDER SERVICES | ONLINEPANDIT.COM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /*CSS rest*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Css variable*/
+        :root {
+            --navbar-height: 59;
+        }
+
+        /* Navigation bar */
+        #navbar {
+            display: flex;
+            align-items: center;
+            font-family: 'Baloo 2', cursive;
+        }
+
+        #logo {
+            margin: 10px 30px;
+        }
+
+        #logo img {
+            height: 50px;
+            margin: 5px 3px;
+            width: 100px;
+        }
+        #navbar ul{
+           display: flex;
+        }
+        #navbar::before{
+            content: "";
+            background-color: rgb(58, 52, 52);
+            position: absolute;
+            height: 12%;
+            top:0px;
+            left: 0px;
+            width: 100%;
+            z-index: -1;
+            opacity: 10;
+        }
+        #navbar ul li{
+            list-style: none;
+            font-size: 1.3rem;
+        }
+        #navbar ul li a{
+            color: whitesmoke;
+            display: block;
+            margin: 20px;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            background-color: rgb(77, 57, 57);
+        }
+        #navbar ul li a:hover{
+            color: rgb(48, 36, 36);
+           font-size: larger;
+            background-color: rgb(247, 240, 240);
+        }
+/* Home section  */
+      #home{
+          display: flex;
+          flex-direction: column;
+          padding: 3px 200px;
+          height: 700px;
+          justify-content: center;
+          align-items: center;
+      }
+      #home::before{
+            content: "";
+            background: url('sadhu.jpg') no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            top:0px;
+            left: 0px;
+            opacity: .89;
+      }
+      #home h1{
+          text-align: center;
+          font-size: 5rem;
+          color: rgb(56, 15, 54);
+          font-family: 'Pattaya', sans-serif;
+      }
+      #home h1:hover{
+          color: rgb(29, 34, 18);
+      }
+      #home p{
+          color: rgb(58, 3, 63);
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: 100;
+          font-family: 'Pattaya', sans-serif;
+      }
+/* Services class */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+   border: 2px solid rgb(6, 82, 117); 
+   padding: 23px;
+   border-radius: 15px;
+   margin: 3px;
+}
+#services .box p{
+    font-family:'Pattaya', sans-serif;
+}
+   
+
+#services .box img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Clients section*/
+#client-section{
+height: 500px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients-item{
+    padding: 34px;
+}
+
+      /* Utility classes */
+      .h-primary{
+          font-size: 3.8rem;
+          font-family: 'Pattaya', sans-serif;
+          padding: 12px;
+          
+      } 
+      .h-secondary{
+        font-size: 1.8rem;
+        font-family: 'Pattaya', sans-serif;
+          padding: 12px;
+          
+      } 
+      .btn{
+          padding: 6px 20px;
+          color: rgb(180, 171, 171);
+          border: 2px solid rgb(126, 91, 91);
+          background-color: rgb(4, 42, 43);
+          font-size: 1.5rem;
+          border-radius: 10px;
+          font-family:'Pattaya', sans-serif ;
+
+      }
+      .btn:hover{
+          color: rgb(45, 65, 5);
+        background-color: rgb(171, 207, 204);
+        border: 2px solid rgb(49, 33, 2);
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      .center{
+          text-align: center;
+      }
+      h2{
+          color: rgb(25, 52, 124);
+          cursor: pointer;
+
+      }
+      h2:hover{
+          color: rgb(102, 21, 37);
+          background-color: darkgrey;
+      }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="ONLINEPANDIT.COM">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About us</a></li>
+            <li class="item"><a href="#">Contact us</a></li>
+            <li class="item"><a href="#">Book now</a></li>
+        </ul>
+    </nav>
+<section id="home">
+    <h1 class="h-primary">Book Verified Panditjee
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro tenetur corporis.</p>
+    <p>Lorem ipsum dolor sit</p>
+    <button class="btn">Order Now</button>
+</section>
+<section class="services-container">
+    <h1 class="h-primary center">Our Services</h1>
+    <div id="services">
+        <div class="box">
+            <img src="man1.jpg" alt="">
+           
+           <h2 class="h-secondary center ">Order panditjee for Temple</h2>
+               <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui neque alias ab nam vitae earum quasi libero molestiae laborum repudiandae corrupti enim, tempora maxime minima possimus aperiam consectetur! Vel impedit cumque voluptate eius soluta.</p>
+        </div>
+        <div class="box">
+            <img src="katha.jfif" alt="">
+           
+           <h2 class="h-secondary center ">Katha wachak</h2>
+               <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui neque alias ab nam vitae earum quasi libero molestiae laborum repudiandae corrupti enim, tempora maxime minima possimus aperiam consectetur! Vel impedit cumque voluptate eius soluta.</p>
+        </div>
+        <div class="box">
+            <img src="shadhu.jpg" alt="">
+           
+           <h2 class="h-secondary center ">For grih puja</h2>
+               <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui neque alias ab nam vitae earum quasi libero molestiae laborum repudiandae corrupti enim, tempora maxime minima possimus aperiam consectetur! Vel impedit cumque voluptate eius soluta.</p>
+        </div>
+       
+    </div>
+</section>
+<section id="clients-section">
+    <h1 class="h-primary center">Our Clients</h1>
+    <div id="clients">
+        <div class="clients-item">
+            <img src="client.jfif" alt="">
+            <h2 class="h-secondary center">sonu ji maharaj</h2>
+        </div>
+        <div class="clients-item">
+            <img src="client2.jfif" alt="">
+            <h2 class="h-secondary center">Shree Tarun ji maharaj </h2>
+        </div>
+       
+        <div class="clients-item">
+            <img src="clients 1.jfif" alt="">
+            <h2 class="h-secondary center">Devkinadan ji maharaj</h2>
+        </div>
+       
+    </div>
+</section>
+
+
+</body>
+
+</html>
